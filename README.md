@@ -2,13 +2,13 @@
 # Creating Functions
 
 ## Introduction
-As we learn to accomplish more and more with our code, we want the ability to reuse our code to help us solve different problems. Functions allow us to do just that. They also also give us the ability to name a sequence of operations (or block of code), thus making our code expressive. Let's see how this works, and why something like this is useful.
+As we learn to accomplish more and more with our code, we want the ability to reuse our code to help us solve different problems. Functions allow us to do just that. They also give us the ability to name a sequence of operations (or block of code), thus making our code expressive. Let's see how this works, and why something like this is useful.
 
 ## Objectives
 You will be able to:
 * Create and use your own custom functions
 
-### Our problem so far 
+## Our problem so far 
 
 Imagine that we have a group of employees who have just joined our company.  
 
@@ -96,7 +96,7 @@ greet_employees()
 
 > Make sure to press shift + enter for the two cells above.
 
-There are two steps to using a function: defining a function and executing a function.  Defining a function happens first, and afterwards when we call `greet_employees()` we execute the function.   
+There are two steps to using a function: defining a function and executing a function.  Defining a function happens first, and afterward when we call `greet_employees()` we execute the function.   
 
 
 ```python
@@ -129,7 +129,7 @@ greet_employees()
 
 
 
-### Declaring and using functions
+## Declaring and using functions
 
 There are two components to declaring a function: the function signature and the function body.
 
@@ -140,7 +140,7 @@ def name_of_function(): # signature
     print(words) # body
 ```
 
-#### Function Signature
+### Function Signature
 
 The function signature is the first line of the function.  It follows the pattern of `def`, `function name`, `parentheses`, `colon`.
 
@@ -148,7 +148,7 @@ The function signature is the first line of the function.  It follows the patter
 
 The `def` is there to tell Python that you are about to declare a function.  The name of the function indicates how to reference and execute the function later.  The colon is to end the function signature and indicate that the body of the function is next.  The parentheses are important as well, and we'll explain their use in a later lesson.
 
-#### Function Body
+### Function Body
 
 The body of the function is what the function does.  This is the code that runs each time we execute the function.  We indicate that we are writing the function body by going to the next line and indenting after the colon.  To complete the function body we stop indenting.  
 
@@ -168,7 +168,7 @@ name_of_function()
 ```
 
     function body
-    
+
 
 > Press shift + enter
 
@@ -216,7 +216,7 @@ Much better.  So with the return statement we returned the string `'returned fro
 
 > We will learn more on what is available from inside and outside of the function, so, don't worry if it feels a little confusing right now.
 
-### See it again
+## See it again
 
 Now let's identify the function signature and function body of our original function, `greet_empoyees()`.
 
@@ -248,6 +248,6 @@ greet_employees()
 
 
 
-### Summary
+## Summary
 
-In this section we saw how using a function allows us to reuse code without rewriting it.  We saw that to declare a function we first write the function signature, which consists of the `def` keyword, the function name, parentheses and a colon.  We indicate the body of the function by indenting our code and then writing the code that our function will execute.  To execute the function, we write the function's name followed by parentheses.  Executing the function will run the lines in the body of the function.
+In this section we saw how using a function allows us to reuse code without rewriting it.  We saw that to declare a function we first write the function signature, which consists of the `def` keyword, the function name, parentheses, and a colon.  We indicate the body of the function by indenting our code and then writing the code that our function will execute.  To execute the function, we write the function's name followed by parentheses.  Executing the function will run the lines in the body of the function.
