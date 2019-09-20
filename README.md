@@ -66,9 +66,9 @@ welcome_messages
 
 
 
-If each time we wanted to reuse code we needed to copy and paste the code, we would have to maintain a lot more code than is necessary.  Also, each time we recopied it is another opportunity to make a mistake.  So what if there was a way to write that code just one time, yet be able to execute that code wherever and whenever we want?  Functions allow us to do just that.
+If each time we wanted to reuse code we would have to copy and paste the code and maintain a lot more code than is necessary.  Also, each time we recopied it is another opportunity to make a mistake.  So what if there was a way to write that code just one time, yet be able to execute that code wherever and whenever we want?  Functions allow us to do just that.
 
-Here is that same code wrapped in a function.
+Here is that same code wrapped in a function: 
 
 
 ```python
@@ -160,7 +160,7 @@ def name_of_function():
 # no longer part of the function body
 ```
 
-Let's execute the `name_of_function` function.
+Let's execute the `name_of_function()` function.
 
 
 ```python
@@ -191,7 +191,7 @@ words
     NameError: name 'words' is not defined
 
 
-To get something out of the function, we must use the `return` keyword, followed by what we would like to return.  Let's declare another function called `other_function` that has a body which is exactly the same, but has a return statement.
+To get something out of the function, we must use the `return` keyword, followed by what we would like to return.  Let's declare another function called `other_function()` that has a body which is exactly the same, but has a return statement.
 
 
 ```python
@@ -232,7 +232,7 @@ def greet_employees(): # function signature
 # no longer in function body
 ```
 
-As you can see, `greet_employees` has the same components of a function we identified earlier: the function signature, the function body, and the return statement. Each time we call, `greet_employees()`, all of the lines in the body of the function are run.  However, only the return value is accessible from outside of the function.
+As you can see, `greet_employees()` has the same components of a function we identified earlier: the function signature, the function body, and the return statement. Each time we call, `greet_employees()`, all of the lines in the body of the function are run.  However, only the return value is accessible from outside of the function.
 
 
 ```python
