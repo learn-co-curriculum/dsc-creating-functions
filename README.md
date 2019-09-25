@@ -6,7 +6,7 @@ As we learn to accomplish more and more with our code, we want the ability to re
 
 ## Objectives
 You will be able to:
-* Create and use your own custom functions
+- Create and use your own custom functions
 
 ## Our problem so far 
 
@@ -113,7 +113,7 @@ greet_employees()
 
 
 
-Ok let's break down how to define, or declare, a function.  Executing a function is fairly simple, just type the function's name followed by parentheses.
+Ok, let's break down how to define, or declare, a function.  Executing a function is fairly simple, just type the function's name followed by parentheses.
 
 
 ```python
@@ -172,7 +172,7 @@ name_of_function()
 
 > Press shift + enter
 
-Did it work?  Kinda.  The lines of our function were run.  But our function did not return anything.  Functions are designed so that everything inside of them stay inside.  So for example, even though we declared the `words` variable, `words` is not available from outside of the function.
+Did it work?  Kinda.  The lines of our function were run.  But our function did not return anything.  Functions are designed so that everything inside of them stays inside.  So for example, even though we declared the `words` variable, `words` is not available from outside of the function.
 
 
 ```python
