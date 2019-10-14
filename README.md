@@ -6,7 +6,7 @@ As we learn to accomplish more and more with our code, we want the ability to re
 
 ## Objectives
 You will be able to:
-- Create and use your own custom functions
+* Declare and use a basic function
 
 ## Our problem so far 
 
