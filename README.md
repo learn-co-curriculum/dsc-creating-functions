@@ -1,11 +1,12 @@
-
 # Creating Functions
 
 ## Introduction
 Now that we learned about loops, it would be nice to have the ability to *reuse* our code to help us solve different problems. Functions allow us to do just that. They also give us the ability to name a sequence of operations (or block of code), thus making our code expressive. Let's see how this works, and why something like this is useful.
 
 ## Objectives
+
 You will be able to:
+
 * Declare and use a basic function
 
 ## Our problem so far 
